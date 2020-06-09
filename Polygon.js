@@ -10,7 +10,7 @@ class Poly{
         this.image = loadImage("hex.png");
 
 
-        World.add(world,this.body);
+        World.add(world,this.body)
     }
     display(){
         var pos = this.body.position
